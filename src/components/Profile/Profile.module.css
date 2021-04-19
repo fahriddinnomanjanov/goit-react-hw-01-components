@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+}
+body {
+  padding: 0 15px;
+}
+
+.profile {
+  display: block;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  text-align: center;
+  border: solid 1px;
+}
+.description {
+  text-align: center;
+}
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.name {
+  margin-bottom: 10px;
+}
+
+.tag {
+  margin-bottom: 10px;
+}
+
+.location {
+  margin-bottom: 10px;
+}
+
+.stats {
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.statsItem {
+  vertical-align: middle;
+  width: 100px;
+  height: 100px;
+}
+
+.label {
+}
+
+.quantity {
+}
