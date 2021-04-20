@@ -2,51 +2,70 @@
   margin: 0;
 }
 body {
-  padding: 0 15px;
+  padding: 30px 15px;
 }
 
 .profile {
   display: block;
-  width: 500px;
-  height: 500px;
+  width: 280px;
+  height: 330px;
   margin: 0 auto;
   text-align: center;
   border: solid 1px;
 }
 .description {
   text-align: center;
+  padding-top: 15px;
+  background-color: rgb(21, 168, 187);
 }
 .avatar {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   margin-bottom: 10px;
+  background-color: #000000;
 }
 .name {
   margin-bottom: 10px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: bold;
+  color: #fff;
 }
 
 .tag {
+  color: #fff;
   margin-bottom: 10px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: bold;
 }
 
 .location {
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
+  font-size: 20px;
+  font-style: normal;
+  font-weight: bold;
+  color: #fff;
 }
 
 .stats {
-  padding: 0;
-  list-style: none;
   display: flex;
+  padding-top: 8px;
+  padding-bottom: 10px;
+  padding-left: 0;
+  padding-right: 0;
+  list-style: none;
+  background-color: rgb(14, 252, 66);
 }
 
 .statsItem {
-  vertical-align: middle;
-  width: 100px;
-  height: 100px;
+  margin: 0 auto;
 }
 
 .label {
+  display: flex;
+  margin-bottom: 5px;
 }
 
 .quantity {
